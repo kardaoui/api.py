@@ -1,0 +1,8 @@
+/venv/
+/model/expected_value.pkl
+/model/knn_test1.pkl
+/model/LGBMClassifier_test0.pkl
+/model/model_test.pkl
+/model/model_test0.pkl
+/model/model_test1.pkl
+/model/shap_values.pkl
