@@ -16,8 +16,8 @@ def credit():
 def load_model():
     global clf
     """loading the trained model"""
-    with open('model/lgbm_model.pkl', 'rb') as mdl:
-    #with open('model/model_shap.pkl', 'rb') as mdl:
+    #with open('model/lgbm_model.pkl', 'rb') as mdl:
+    with open('model/model_test_V3.pkl', 'rb') as mdl:
         clf = pickle.load(mdl)
 
 
